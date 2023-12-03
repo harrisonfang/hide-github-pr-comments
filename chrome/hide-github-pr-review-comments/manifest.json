@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Hide GitHub PR Comments",
+    "description": "Hides GitHub pull request comments.",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://www.github.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Hide Comments"
+    }
+}
