@@ -1,2 +1,2 @@
-# hide-pr-review-comments
+# hide-github-pr-comments
 Browser extension for hiding GitHub pull request comments.
